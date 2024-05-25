@@ -71,7 +71,7 @@ Request body
 ```
 
 
-All the methods after login will require the token generated after login in Request Headers.
+All the methods after login will require the token generated after login in Request Headers./n
 3. /products/ - POST METHOD
 Add a new product into the inventory
 
