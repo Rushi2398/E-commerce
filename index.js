@@ -11,7 +11,7 @@ app.use('/users',userRoutes);
 app.use('/orders',orderRoutes);
 app.use('/products',productRoutes);
 
-app.get('/', ()=>{
+app.get('/', (req, res)=>{
     res.send("Welcome to e-commerce api")
 })
 const PORT = process.env.PORT || 3000;
