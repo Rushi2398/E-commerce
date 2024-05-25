@@ -47,7 +47,7 @@ npm start || node index.js
 ## Test
 Payload to test each endpoint.
 
-1. /users/register 
+1. /users/register <br />
 Registers a new user
 
 Request body
@@ -59,7 +59,7 @@ Request body
 }
 ```
 
-2. /users/login
+2. /users/login <br />
 Login endpoint which generates an auth token to access the protected endpoints
 
 Request body
@@ -71,8 +71,8 @@ Request body
 ```
 
 
-All the methods after login will require the token generated after login in Request Headers./n
-3. /products/ - POST METHOD
+All the methods after login will require the token generated after login in Request Headers. <br />
+3. /products/ - POST METHOD <br />
 Add a new product into the inventory
 
 Request body
@@ -85,12 +85,12 @@ Request body
 }
 ```
 
-4. /products/ - GET METHOD
+4. /products/ - GET METHOD <br />
 Get all the products present
 
 no parameters
 
-5. /products/:id - PUT METHOD
+5. /products/:id - PUT METHOD <br />
 Update the products present in the inventory
 
 Request Parameters
@@ -110,7 +110,7 @@ Request body
 }
 ```
 
-6. /products/:id - DELETE METHOD
+6. /products/:id - DELETE METHOD <br />
 Delete a particular product from the inventory
 
 Request Parameters
@@ -120,11 +120,11 @@ Request Parameters
 }
 ```
 
-7. /orders/ - GET METHOD
-Get all the orders present in the system
+7. /orders/ - GET METHOD <br />
+Get all the orders present in the system <br />
 no parameters
 
-8. /orders/ - POST METHOD
+8. /orders/ - POST METHOD <br />
 Create a new order which modifies the number of product in the system.
 
 Request Body
