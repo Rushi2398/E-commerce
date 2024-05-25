@@ -27,7 +27,12 @@ PORT="port_number"
 npm start || node index.js
 ```
 
-5. You can access the following endpoints
+5. Run the command for generating prisma clients
+```bash
+npx prisma generate
+```
+
+6. You can access the following endpoints
 ```bash
 /users/register - POST METHOD
 /users/login - POST METHOD
@@ -136,3 +141,10 @@ Request Body
     total 
 }
 ```
+
+## Tech Stack
+
+Node - runtime
+Express - for creating endpoints
+Zod - for input validation
+Prisma - ORM for PostgresSQL
