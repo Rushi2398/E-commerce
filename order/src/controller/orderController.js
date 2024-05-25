@@ -1,4 +1,4 @@
-const prisma = require('../../../common/prisma/client');
+const prisma = require('../../../prisma/client');
 const { z } = require('zod');
 
 const orderSchema = z.object({

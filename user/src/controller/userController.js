@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const prisma = require('../../../common/prisma/client');
+const prisma = require('../../../prisma/client');
 const { z } = require('zod');
 
 const userSchema = z.object({
