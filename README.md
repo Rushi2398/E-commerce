@@ -144,7 +144,7 @@ Request Body
 
 ## Tech Stack
 
-Node - runtime
-Express - for creating endpoints
-Zod - for input validation
-Prisma - ORM for PostgresSQL
+Node - runtime <br />
+Express - for creating endpoints <br />
+Zod - for input validation <br />
+Prisma - ORM for PostgresSQL <br />
